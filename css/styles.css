@@ -187,14 +187,16 @@ visibility: hidden;
 }
 .strategy-item {
 list-style: none;
-/* width: calc((100% - 24% * 2) / 4); */
+width: calc((100% - 72px) / 4);
 }
 .strategy-subtitle {
 color:  #2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+margin-bottom: 8px;
+}
 .strategy-text {
 color:  #434455;
 font-size: 16px;
@@ -312,6 +314,7 @@ letter-spacing: 0.02em;
 }
 .footer {
     background:  #2E2F42;
+    padding: 100px 0;
 }
 .footer-logo {
 color:  #4D5AE5;
@@ -323,6 +326,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
+display: inline-block;
+margin-bottom: 16px;
 }
 .footer-logo-color {
 color:  #F4F4FD;
