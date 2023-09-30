@@ -46,11 +46,13 @@ margin: 0 auto;
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container{
     display: flex;
     align-items: center;
     gap: 332px;
+    width: 1158px;
 }
 .header-navigation {
     display: flex;
@@ -105,13 +107,14 @@ text-decoration: none;
     color: #404bbf;
 }
 .header-address{
-    font-style: normal;
+    font-style: normal; 
 }
 .header-soc-list {
     list-style: none;
     display: flex;
     gap: 40px;
     padding-right: 156px;
+    padding: 24px 0;  
 }
 .contact-link{
     color:#434455;
