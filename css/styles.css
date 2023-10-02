@@ -209,8 +209,8 @@ margin-left: 150px;
 .strategy-list {
     display: flex;
     gap: 24px; 
-    padding-left: 156px;
-    padding-right: 156px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
 }
 .strategy-item {
     width: calc((100% - 72px) / 4);
