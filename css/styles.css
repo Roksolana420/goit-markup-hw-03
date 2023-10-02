@@ -213,8 +213,8 @@ margin-left: 150px;
     padding-right: 156px;
 }
 .strategy-item {
+    width: calc((100% - 72px) / 4);
 list-style: none;
-width: calc((100% - 72px) / 4); 
 }
 .strategy-subtitle {
 color:  #2E2F42;
